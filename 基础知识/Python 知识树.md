@@ -1,8 +1,7 @@
-**Python 编译器**
+**Python 环境**
 
-- Visual Studio Code
-- PyCharm
-- Sublime Text 3
+- Python 解释器安装配置
+- VSCode 编码器安装配置
 
 **Python 基本语法：**
 
