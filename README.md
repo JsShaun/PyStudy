@@ -1,1 +1,1 @@
-# PyStudy
+# Python 教程
