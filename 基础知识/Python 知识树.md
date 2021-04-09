@@ -1,7 +1,7 @@
 **Python 环境**
 
-- Python 解释器安装配置
-- VSCode 编码器安装配置
+- Python 解释器
+- VSCode 编码器
 
 **Python 基本语法：**
 
