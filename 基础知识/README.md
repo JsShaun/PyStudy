@@ -5,3 +5,5 @@
 - https://cn.bing.com/
 - https://google.com
 - 大家在使用资料查找的时候最好使用 Google 浏览器，浏览器自带一键翻译功能，这样我们查看非中文网页可以借助谷歌翻译帮助浏览。
+
+![images](./images/eat.jpg)
