@@ -98,7 +98,9 @@ class MySql(object):
             return self.__cursor.rowcount
 
     def pandas(self,sql,params={},*args,**kwargs):
-        '''mysql数据pandas查询方式，返回DataFrame格式数据'''
+        '''此方法属于pandas范畴，初学者可以不学，后学。
+        mysql数据pandas查询方式，返回DataFrame格式数据
+        '''
         return pd.read_sql_query(sql=sql,con=self.conn,params=params,*args,**kwargs)
       
     def __del__(self):
