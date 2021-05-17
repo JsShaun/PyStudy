@@ -16,3 +16,10 @@ else:
 
 finally:
     print("无论对错，都执行")
+
+import pandas as  pd
+from pandas.core.frame import DataFrame
+
+df = pd.DataFrame()
+
+
