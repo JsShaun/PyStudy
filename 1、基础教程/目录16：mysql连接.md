@@ -5,7 +5,7 @@ import panndas as pd
 from pymysql import connect,cursors
 
 
-class MySql(object):
+class Helper(object):
     '''
     mysql执行封装类
     '''
@@ -112,5 +112,15 @@ class MySql(object):
         if self.__conn:
             self.__conn.close()
 
-            
+
+
+if __name__ == '__main__':
+
+    ss1 = pd.Series([1])
+
+    hp = Helper(host='localhost',port=5432,user='postgres',password='123456',database='postgres')
+    p= hp.execSQL(sql='update "user"."account" set phone = 110  where id in %(id)s',id=tuple(ss1))
+    print(p)
+
+
 ```   
